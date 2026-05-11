@@ -263,6 +263,11 @@ body {
   transform: scale(1.05);
 }
 @media (max-width: 900px) { .about-img-circle { width: 240px; } }
+@media (min-width: 901px) {
+  .about-text-grid {
+    padding-left: 24px;
+  }
+}
 @media (max-width: 680px) {
   .about-top-grid {
     display: flex;

@@ -26,7 +26,7 @@ export default function About() {
       <Container maxWidth="lg">
 
         {/* ── Top: AboutMe image left, text right ── */}
-        <Grid container spacing={4} alignItems="flex-start" className="about-top-grid" sx={{ mb: 8 }}>
+        <Grid container spacing={{ xs: 2, md: 8 }} alignItems="flex-start" className="about-top-grid" sx={{ mb: 8 }}>
 
           {/* LEFT — AboutMe illustration */}
           <Grid item xs={12} sm={4} md={3} className="about-img-grid">
