@@ -46,7 +46,7 @@ export default function Projects() {
                 '&:hover': { transform: 'translateY(-10px)', border: '1px solid rgba(255,107,53,0.5)', background: 'rgba(255,107,53,0.05)' }
               }}>
                 <Box sx={{ position: 'relative', overflow: 'hidden', flexShrink: 0 }}>
-                  <CardMedia component="img" height="200" image={p.image || 'https://placehold.co/600x400'} alt={p.title}
+                  <CardMedia component="img" height={{ xs: 150, sm: 180, md: 200 }} image={p.image || 'https://placehold.co/600x400'} alt={p.title}
                     sx={{ objectFit: 'cover', transition: 'transform 0.4s', '&:hover': { transform: 'scale(1.05)' } }} />
                   <Box sx={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,10,10,0.8), transparent)' }} />
                 </Box>

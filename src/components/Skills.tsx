@@ -27,32 +27,32 @@ const techIcons = [
 const expertiseData = [
   {
     title: 'Front-End Development',
-    icon: <Monitor sx={{ color: '#4fc3f7', fontSize: 26 }} />,
+    icon: <Monitor sx={{ color: '#4fc3f7', fontSize: { xs: 24, md: 26 } }} />,
     items: ['Vue.js, Vanilla JavaScript, React', 'Responsive & accessible UI development', 'State management: Vuex, Redux', 'REST & GraphQL API integration'],
   },
   {
     title: 'Styling & CSS Frameworks',
-    icon: <Add sx={{ color: '#69f0ae', fontSize: 26 }} />,
+    icon: <Add sx={{ color: '#69f0ae', fontSize: { xs: 24, md: 26 } }} />,
     items: ['Vanilla CSS, Bootstrap 5, Tailwind CSS', 'Font Awesome & Vuetify for rich components', 'Ant Design, Material-UI for enterprise UIs', 'Custom theming & utility-first design'],
   },
   {
     title: 'Back-End Development',
-    icon: <Storage sx={{ color: '#69f0ae', fontSize: 26 }} />,
+    icon: <Storage sx={{ color: '#69f0ae', fontSize: { xs: 24, md: 26 } }} />,
     items: ['PHP & Laravel Framework expertise', 'Eloquent ORM, Blade templating, middleware', 'MySQL database design', 'Queues, events, scheduled tasks, REST APIs'],
   },
   {
     title: 'Version Control & Collaboration',
-    icon: <ArrowUpward sx={{ color: '#ff6b35', fontSize: 26 }} />,
+    icon: <ArrowUpward sx={{ color: '#ff6b35', fontSize: { xs: 24, md: 26 } }} />,
     items: ['Git & GitHub workflows (branching, PRs)', 'Continuous Integration: GitHub Actions', 'Code reviews & issue management', 'Documentation & technical writing'],
   },
   {
     title: 'Legacy Projects',
-    icon: <CheckCircleOutline sx={{ color: '#69f0ae', fontSize: 26 }} />,
+    icon: <CheckCircleOutline sx={{ color: '#69f0ae', fontSize: { xs: 24, md: 26 } }} />,
     items: ['CMS - improved load times by 50%', 'E-commerce integration: sales up by 30%', 'Internal ERP upgrade: streamlined workflows', 'Maintained legacy codebases & modernized architecture'],
   },
   {
     title: 'UI/UX Design',
-    icon: <ViewList sx={{ color: '#ce93d8', fontSize: 26 }} />,
+    icon: <ViewList sx={{ color: '#ce93d8', fontSize: { xs: 24, md: 26 } }} />,
     items: ['User research & persona development', 'Wireframing & interactive prototyping', 'Tools: Figma, Sketch, Adobe XD', 'Usability testing & user feedback analysis'],
   },
 ];
