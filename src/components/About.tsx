@@ -26,17 +26,17 @@ export default function About() {
       <Container maxWidth="lg">
 
         {/* ── Top: AboutMe image left, text right ── */}
-        <Grid container spacing={10} alignItems="flex-start" sx={{ mb: 8 }}>
+        <Grid container spacing={4} alignItems="flex-start" className="about-top-grid" sx={{ mb: 8 }}>
 
           {/* LEFT — AboutMe illustration */}
-          <Grid item xs={12} md={3}>
+          <Grid item xs={12} sm={4} md={3} className="about-img-grid">
             <Box className="about-img-wrap">
               <img src="/AboutMe.png" alt="Moaz Javed" className="about-img-circle" />
             </Box>
           </Grid>
 
           {/* RIGHT — text content */}
-          <Grid item xs={12} md={9}>
+          <Grid item xs={12} sm={8} md={9} className="about-text-grid">
 
             <Typography variant="h3" className="about-heading">About Me</Typography>
 

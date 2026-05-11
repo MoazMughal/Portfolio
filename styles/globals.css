@@ -263,6 +263,32 @@ body {
   transform: scale(1.05);
 }
 @media (max-width: 900px) { .about-img-circle { width: 240px; } }
+@media (max-width: 680px) {
+  .about-top-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .about-img-grid {
+    flex: 0 0 100px;
+    max-width: 100px;
+  }
+  .about-img-wrap {
+    justify-content: flex-start;
+  }
+  .about-img-circle {
+    width: 100px;
+  }
+  .about-text-grid {
+    flex: 1 1 calc(100% - 118px);
+    max-width: calc(100% - 118px);
+  }
+  .about-intro,
+  .about-description {
+    font-size: 0.82rem;
+  }
+}
 
 /* Small profile pic top-right of text column */
 .about-profile-top {
